@@ -2,6 +2,10 @@
     display: none;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html body {
     margin: 0;
     padding: 0;
@@ -10,18 +14,26 @@ html body {
     font-size: 17px;
 }
 
+img {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
 
 #container {
     position: absolute;
     left: 50%;
     top: 35%;
     transform: translate(-50%, -50%);
+    margin-top: 30px;
 }
 
 h1#clock {
     width: 100%;
     text-align: center;
-    font-family: 'Arial', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 7rem;
     margin-bottom: .1rem;
 }
@@ -75,8 +87,9 @@ h1#greeting {
 
 #todo-form {
     display:inline-block;
-    margin-left: 12%;
-    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     text-align: center;
 }
 
@@ -140,12 +153,4 @@ h1#greeting {
     text-align: right;
 }
 
-img {
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-}
 
