@@ -1,0 +1,151 @@
+.hidden {
+    display: none;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: 'Comfortaa', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 17px;
+}
+
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+h1#clock {
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 7rem;
+    margin-bottom: .1rem;
+}
+
+h1#greeting {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.hidden > #login-form {
+    display: inline-block;
+    width: 70%;
+    height: 2rem;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    outline: 0;
+    font-family: 'Comfortaa', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 2rem;
+}
+
+#greetingInput {
+    margin-top: 1rem;
+    margin-left: 15%;
+    width: 70%;
+    height: 1.5rem;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: .5rem;
+    color: #FFF;
+    font-family: 'Comfortaa', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#greetingInput::placeholder {
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: bolder;
+}
+
+#greetingInput:focus {
+    outline:transparent;
+}
+
+#todo-form {
+    display:inline-block;
+    margin-left: 12%;
+    width: 75%;
+    text-align: center;
+}
+
+#todoInput {
+    margin-top: 2rem;
+    margin-left: 10%;
+    width: 75%;
+    height: 1.5rem;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    font-family: 'Comfortaa', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#todoInput::placeholder {
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 1rem;
+    font-family: 'Comfortaa', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: bolder;
+}
+
+#todoInput:focus {
+    outline: transparent;
+}
+
+#todo-list {
+    padding-right: 10%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight:bolder;
+}
+
+
+#quote {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    bottom: 2rem;
+    text-align:center;
+}
+
+#quote span:first-child {
+    font-weight:bolder;
+}
+
+#quote span:last-child {
+    font-size: .8rem;
+    padding-top:.2rem;
+}
+
+#weather {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top: 2rem;
+    right: 1rem;
+    text-align: right;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
